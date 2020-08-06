@@ -39,7 +39,7 @@ print(y)
 # Use a list comprehension to create a list containing only the _even_ elements
 # the user entered into list x.
 
-x = input("2, 3, 4, 5, 6").split(',')
+x = input("Enter numbers seperated by comma: ").split(',')
 
 # What do you need between the square brackets to make it work?
 y = [each for each in x if (each % 2) == 0]
