@@ -10,9 +10,7 @@ for more info regarding list comprehensions.
 
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
-y = [each+1 for each in range(5)]
-for each in range(5):
-    y.append(each + 1)
+y = [x for x in range(1,6)]
 
 print (y)
 
